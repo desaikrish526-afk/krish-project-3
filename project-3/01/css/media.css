@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+@media  (min-width:1399px){
+    .box-1 {
+        min-width: 1140px;
+        background-color: green;
+    }
+}
+
+@media  (min-width:1199px){
+    .box-2 {
+        min-width: 960px;
+        background-color: yellow;
+    }
+}
+
+@media  (min-width:991px){
+    .box-3 {
+        min-width: 720px;
+        background-color: orange;
+    }
+}
+
+@media  (min-width:767px){
+     .box-4 {
+        min-width: 540px;
+        background-color: red;
+    }
+}
+
+
+
+
